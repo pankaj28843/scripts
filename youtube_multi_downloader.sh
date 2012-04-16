@@ -5,7 +5,7 @@ cwd="$(pwd)"
 http_proxy="http://10.3.100.212:8080"
 https_proxy="http://10.3.100.212:8080"
 
-gedit input.txt
+nano input.txt
 
 links="/tmp/$(date).txt"
 parse_youtube_urls.py > "$links"
@@ -21,8 +21,8 @@ do
     then
         echo $path
         #mcurl-patched --parts 50 --filesize $filesize --output "$path"  $dummy_url &
-        #wget -c --no-verbose $dummy_url -O "$path"&
-        aria2c -c -m0 -s10 -o "$path" $dummy_url &
+        wget -c --no-verbose $dummy_url -O "$path"&
+        #aria2c -c -m0 -s10 -o "$path" $dummy_url &
     fi
 done < "$links"
 
