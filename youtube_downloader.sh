@@ -1,8 +1,5 @@
 #!/bin/bash
 
-export http_proxy="http://10.3.100.212:8080"
-export https_proxy="http://10.3.100.212:8080"
-
 if [ -z "$1" ]; then
     echo "Provide a youtube video url "
 else

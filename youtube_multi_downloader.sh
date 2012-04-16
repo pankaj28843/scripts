@@ -2,9 +2,6 @@
 
 cwd="$(pwd)"
 
-http_proxy="http://10.3.100.212:8080"
-https_proxy="http://10.3.100.212:8080"
-
 nano input.txt
 
 links="/tmp/$(date).txt"
