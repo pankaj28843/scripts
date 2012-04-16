@@ -2,9 +2,7 @@
 
 ###Youtube Downloader
 ####Install scripts
-git clone https://github.com/psjinx/scripts.git
-cd scripts
-./install.sh
+git clone https://github.com/psjinx/scripts.git && cd scripts && ./install.sh
 ####Try to download a youtube video
 cd ~/ && yd "http://www.youtube.com/watch?v=YR12Z8f1Dh8"
 
