@@ -1,11 +1,21 @@
-##Scripts to make life more beautiful
+#Scripts to make life more beautiful
 
-###Youtube Downloader
-####Install scripts
+##Youtube Downloader
+###Install scripts
 git clone https://github.com/psjinx/scripts.git && cd scripts && ./install.sh
-####Try to download a youtube video
+###Try to download youtube videos
+#####Download single youtube videos
 cd ~/ && yd "http://www.youtube.com/watch?v=YR12Z8f1Dh8"
 
 Above command will download "Why This Kolaveri Di Full Song Promo Video in HD.mp4"
 in your home folder.
 
+####Download multiple videos at once
+
+To download multiple videos, please follow following steps
+
+- Right click on youtube page and select inspect element.
+- Select an html element which contains all youtube videos.
+- Right click on that particular element and select "copy as html".
+- In any directory run ymd command in terminal, it will open nano editor, paste html here, save and quit nano (Ctrl+o followed by Ctrl+x).
+- Download will be started.
