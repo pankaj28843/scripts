@@ -12,7 +12,7 @@ while read line
 do
     name=$(echo $(youtube-dl-patched -e "$line").mp4);
     dummy_url=$(youtube-dl-patched -g  "$line");
-    path="/$cwd/$name"
+    path="$cwd/$name"
     filesize=$(youtube-dl-patched --get-filesize "$line");
     if [ ! -f "$path" ];
     then

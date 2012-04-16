@@ -12,6 +12,10 @@ in your home folder.
 
 ####Download multiple videos at once
 
+You will need to install beautifulsoup, a python package for parsing html.
+
+sudo pip install beautifulsoup
+
 To download multiple videos, please follow following steps
 
 - Right click on youtube page and select inspect element.

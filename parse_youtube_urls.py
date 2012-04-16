@@ -1,4 +1,4 @@
-#!/bin/env python
+#!/usr/bin/env python
 from BeautifulSoup import BeautifulSoup
 input_file = file('input.txt')
 soup = BeautifulSoup(input_file.read())
