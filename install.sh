@@ -9,3 +9,4 @@ rm --force ~/bin/parse_youtube_urls.py && ln -s $cwd/parse_youtube_urls.py ~/bin
 rm --force ~/bin/yd && ln -s $cwd/youtube_downloader.sh ~/bin/yd
 rm --force ~/bin/ymd && ln -s $cwd/youtube_multi_downloader.sh ~/bin/ymd
 rm --force ~/bin/ywatch && ln -s $cwd/youtube_watcher.sh ~/bin/ywatch
+rm --force ~/bin/ywatch && ln -s $cwd/youtube_mp3_download.sh ~/bin/ymp3
